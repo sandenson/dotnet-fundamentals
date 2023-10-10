@@ -1,0 +1,14 @@
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/bin/Debug/net7.0/ExemploFundamentos
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/bin/Debug/net7.0/ExemploFundamentos.deps.json
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/bin/Debug/net7.0/ExemploFundamentos.runtimeconfig.json
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/bin/Debug/net7.0/ExemploFundamentos.dll
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/bin/Debug/net7.0/ExemploFundamentos.pdb
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ExemploFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ExemploFundamentos.AssemblyInfoInputs.cache
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ExemploFundamentos.AssemblyInfo.cs
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ExemploFundamentos.csproj.CoreCompileInputs.cache
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ExemploFundamentos.dll
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/refint/ExemploFundamentos.dll
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ExemploFundamentos.pdb
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ExemploFundamentos.genruntimeconfig.cache
+/root/estudos/dio/bootcamp-dotnet-qa/fundamentos-dotnet/ExemploFundamentos/obj/Debug/net7.0/ref/ExemploFundamentos.dll
