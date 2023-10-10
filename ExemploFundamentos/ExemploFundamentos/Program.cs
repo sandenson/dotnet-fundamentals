@@ -199,20 +199,20 @@
 
 // ---------------------------------
 
-// using ExemploFundamentos.Models;
+using ExemploFundamentos.Common.Models;
 
-// Calculator.Sum(2, 3);
-// Calculator.Subtract(2, 3);
-// Calculator.Multiply(2, 3);
-// Calculator.Divide(2, 3);
-// Calculator.Increment(2);
-// Calculator.Decrement(2);
-// Calculator.Power(2, 3);
-// Calculator.Remainder(2, 3);
-// Calculator.Sin(30);
-// Calculator.Cos(30);
-// Calculator.Tan(30);
-// Calculator.SquareRoot(81);
+Calculator.Sum(2, 3);
+Calculator.Subtract(2, 3);
+Calculator.Multiply(2, 3);
+Calculator.Divide(2, 3);
+Calculator.Increment(2);
+Calculator.Decrement(2);
+Calculator.Power(2, 3);
+Calculator.Remainder(2, 3);
+Calculator.Sin(30);
+Calculator.Cos(30);
+Calculator.Tan(30);
+Calculator.SquareRoot(81);
 
 // ---------------------------------
 
@@ -256,37 +256,37 @@
 
 // ---------------------------------
 
-string? option;
-bool showMenu = true;
+// string? option;
+// bool showMenu = true;
 
-while (showMenu) {
-    Console.Clear();
-    Console.WriteLine("Digite a sua opção");
-    Console.WriteLine("1 - Register customer");
-    Console.WriteLine("2 - Search customer");
-    Console.WriteLine("3 - Delete customer");
-    Console.WriteLine("4 - Exit");
+// while (showMenu) {
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção");
+//     Console.WriteLine("1 - Register customer");
+//     Console.WriteLine("2 - Search customer");
+//     Console.WriteLine("3 - Delete customer");
+//     Console.WriteLine("4 - Exit");
 
-    option = Console.ReadLine()?.Trim();
+//     option = Console.ReadLine()?.Trim();
 
-    switch(option) {
-        case "1":
-            Console.WriteLine("Customer registration");
-            break;
-        case "2":
-            Console.WriteLine("Customer search");
-            break;
-        case "3":
-            Console.WriteLine("Customer deletion");
-            break;
-        case "4":
-            Console.WriteLine("Bye!");
-            showMenu = false;
-            break;
-        default:
-            Console.WriteLine("Invalid option");
-            break;
-    }
-}
+//     switch(option) {
+//         case "1":
+//             Console.WriteLine("Customer registration");
+//             break;
+//         case "2":
+//             Console.WriteLine("Customer search");
+//             break;
+//         case "3":
+//             Console.WriteLine("Customer deletion");
+//             break;
+//         case "4":
+//             Console.WriteLine("Bye!");
+//             showMenu = false;
+//             break;
+//         default:
+//             Console.WriteLine("Invalid option");
+//             break;
+//     }
+// }
 
-Console.WriteLine("You've officially left the menu");
+// Console.WriteLine("You've officially left the menu");
