@@ -199,20 +199,20 @@
 
 // ---------------------------------
 
-using ExemploFundamentos.Common.Models;
+// using ExemploFundamentos.Common.Models;
 
-Calculator.Sum(2, 3);
-Calculator.Subtract(2, 3);
-Calculator.Multiply(2, 3);
-Calculator.Divide(2, 3);
-Calculator.Increment(2);
-Calculator.Decrement(2);
-Calculator.Power(2, 3);
-Calculator.Remainder(2, 3);
-Calculator.Sin(30);
-Calculator.Cos(30);
-Calculator.Tan(30);
-Calculator.SquareRoot(81);
+// Calculator.Sum(2, 3);
+// Calculator.Subtract(2, 3);
+// Calculator.Multiply(2, 3);
+// Calculator.Divide(2, 3);
+// Calculator.Increment(2);
+// Calculator.Decrement(2);
+// Calculator.Power(2, 3);
+// Calculator.Remainder(2, 3);
+// Calculator.Sin(30);
+// Calculator.Cos(30);
+// Calculator.Tan(30);
+// Calculator.SquareRoot(81);
 
 // ---------------------------------
 
@@ -290,3 +290,68 @@ Calculator.SquareRoot(81);
 // }
 
 // Console.WriteLine("You've officially left the menu");
+
+// ---------------------------------
+
+// int[] integerArray = new int[3];
+
+// integerArray[0] = 27;
+// integerArray[1] = 77;
+// integerArray[2] = 72;
+
+// for (int i = 0; i < integerArray.Length; i++) {
+//     Console.WriteLine($"Array item #{i + 1}: {integerArray[i]}");
+// }
+
+// Console.WriteLine($"Sum of the array items: {integerArray.Sum()}");
+
+// Console.WriteLine($"Array items listed in a forEach loop");
+
+// Array.Resize(ref integerArray, integerArray.Length * 2);
+
+// int counter = 1;
+// foreach (var item in integerArray) {
+//     Console.WriteLine($"Array item #{counter}: {item}");
+//     counter++;
+// }
+
+// int[] doubledIntegerArray = new int[integerArray.Length * 2];
+// Array.Copy(integerArray, doubledIntegerArray, integerArray.Length);
+
+// ---------------------------------
+
+List<string> stringsList = new();
+
+stringsList.Add("AL");
+stringsList.Add("BA");
+stringsList.Add("SP");
+stringsList.Add("MG");
+
+// for (int i = 0; i < stringsList.Count; i++) {
+//     Console.WriteLine($"List item #{i}: {stringsList[i]}");
+// }
+
+// int counter = 1;
+// foreach (var item in stringsList) {
+//     Console.WriteLine($"List item #{counter}: {item}");
+//     counter++;
+// }
+
+// Console.WriteLine($"Number of list items: {stringsList.Count} - List capacity: {stringsList.Capacity}");
+
+// stringsList.Add("SC");
+
+// Console.WriteLine($"Number of list items: {stringsList.Count} - List capacity: {stringsList.Capacity}");
+
+// stringsList.Remove("MG");
+
+// Console.WriteLine($"Number of list items: {stringsList.Count} - List capacity: {stringsList.Capacity}");
+
+// stringsList.Capacity = 4;
+
+// Console.WriteLine($"Number of list items: {stringsList.Count} - List capacity: {stringsList.Capacity}");
+
+// // Unhandled exception. System.ArgumentOutOfRangeException: capacity was less than the current size. (Parameter 'value')
+// stringsList.Capacity = 3;
+
+// Console.WriteLine($"Number of list items: {stringsList.Count} - List capacity: {stringsList.Capacity}");
